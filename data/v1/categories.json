@@ -1,0 +1,77 @@
+[
+  {
+    "id": "mammals",
+    "name": "哺乳類",
+    "style": "毛並み・角・獣の気配"
+  },
+  {
+    "id": "birds",
+    "name": "鳥類",
+    "style": "羽根・くちばし・羽冠"
+  },
+  {
+    "id": "reptiles",
+    "name": "爬虫類",
+    "style": "鱗・皮膜・眼差し"
+  },
+  {
+    "id": "amphibians",
+    "name": "両生類",
+    "style": "潤った肌・斑紋・水の気配"
+  },
+  {
+    "id": "fish",
+    "name": "魚類",
+    "style": "鰭・鱗・流線"
+  },
+  {
+    "id": "deepsea",
+    "name": "深海生物",
+    "style": "生体発光・深海の透明感"
+  },
+  {
+    "id": "insects",
+    "name": "昆虫",
+    "style": "翅・複眼・外骨格"
+  },
+  {
+    "id": "spiders",
+    "name": "クモ類",
+    "style": "糸・多眼・節足の造形"
+  },
+  {
+    "id": "crustaceans",
+    "name": "甲殻類",
+    "style": "甲殻・鋏・節構造"
+  },
+  {
+    "id": "mollusks",
+    "name": "軟体動物",
+    "style": "殻・触手・柔らかな造形"
+  },
+  {
+    "id": "dinosaurs",
+    "name": "恐竜",
+    "style": "古代の骨格・角・爪"
+  },
+  {
+    "id": "ancient",
+    "name": "絶滅・古代生物",
+    "style": "太古の骨格・化石・牙"
+  },
+  {
+    "id": "mythic",
+    "name": "幻獣",
+    "style": "伝承の神秘・聖なる装飾"
+  },
+  {
+    "id": "monsters",
+    "name": "怪物",
+    "style": "異形の輪郭・魔力・威圧感"
+  },
+  {
+    "id": "original",
+    "name": "架空生物",
+    "style": "未踏の生態・独自の幻想器官"
+  }
+]

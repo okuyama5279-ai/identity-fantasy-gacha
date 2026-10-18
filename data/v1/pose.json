@@ -1,0 +1,16 @@
+[
+  {"id":"side","name":"横に並ぶ","direction":"主人公と相棒が横に並び、互いの輪郭をはっきり見せる。"},
+  {"id":"gaze","name":"見つめ合う","direction":"主人公と相棒が互いの目を見つめて絆を感じさせる。"},
+  {"id":"reach","name":"手を差し伸べる","direction":"主人公が相棒へ手を差し伸べ、交流する。"},
+  {"id":"summon","name":"召喚の瞬間","direction":"召喚の光から相棒が姿を現す動的な一瞬。"},
+  {"id":"battle","name":"共闘する","direction":"主人公と相棒が同じ方向を向いて力を合わせる。"},
+  {"id":"rest","name":"一緒に休む","direction":"主人公と相棒が落ち着いた距離で休息する。"},
+  {"id":"play","name":"遊ぶ","direction":"主人公と相棒が無邪気に遊び、互いの存在感を保つ。"},
+  {"id":"run","name":"疾走する","direction":"主人公と相棒が共に地上を駆ける瞬間。","habitats":["land","amphibious","fantasy"]},
+  {"id":"carry","name":"抱きかかえる","direction":"主人公が小柄な相棒を無理なく抱く。水棲生物は水を保持する魔法球ごと抱く。","sizes":["tiny","small"]},
+  {"id":"shoulder","name":"肩に乗せる","direction":"小柄な相棒が主人公の肩に乗り、顔は隠さない。","sizes":["tiny","small"],"habitats":["land","air","fantasy"]},
+  {"id":"ride","name":"背中に乗る","direction":"主人公が十分に大きい相棒の背に乗る。水中の場合は魔法で呼吸を確保。","sizes":["large","giant"]},
+  {"id":"hug","name":"寄り添って抱く","direction":"主人公が相棒と自然な体格差で寄り添う。","sizes":["small","medium"]},
+  {"id":"fly","name":"空を飛ぶ","direction":"主人公と相棒が魔法の力で空を移動する。","habitats":["air","fantasy"]},
+  {"id":"swim","name":"一緒に泳ぐ","direction":"主人公と相棒が水中で泳ぐ。魔法による呼吸と顔の可視性を確保する。","habitats":["water","amphibious"]}
+]

@@ -1,0 +1,2132 @@
+{
+  "mammals": [
+    {
+      "id": "mammals-01",
+      "name": "ユキヒョウ",
+      "motif": "雪色の斑紋と長い尾",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-02",
+      "name": "フェネック",
+      "motif": "大きな耳と砂色の毛",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-03",
+      "name": "オオカミ",
+      "motif": "銀灰色の毛並みと鋭い耳",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-04",
+      "name": "カピバラ",
+      "motif": "丸い鼻先と穏やかな体格",
+      "size": "medium",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "mammals-05",
+      "name": "キリン",
+      "motif": "長い首と網目の斑紋",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-06",
+      "name": "カモノハシ",
+      "motif": "平たいくちばしと水かき",
+      "size": "small",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "mammals-07",
+      "name": "センザンコウ",
+      "motif": "重なる鱗状の体毛",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-08",
+      "name": "アカギツネ",
+      "motif": "赤褐色の毛並みとふさ尾",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-09",
+      "name": "モモンガ",
+      "motif": "滑空膜と大きな瞳",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "mammals-10",
+      "name": "レッサーパンダ",
+      "motif": "赤茶の毛としま模様の尾",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-11",
+      "name": "オオコウモリ",
+      "motif": "革質の翼と狐に似た顔",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "mammals-12",
+      "name": "オオアリクイ",
+      "motif": "長い口吻と豊かな尾",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-13",
+      "name": "ヤマアラシ",
+      "motif": "長い針毛と丸い顔",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-14",
+      "name": "ラッコ",
+      "motif": "密な毛皮と小さな前足",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mammals-15",
+      "name": "シャチ",
+      "motif": "白黒の模様と背びれ",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "mammals-16",
+      "name": "オカピ",
+      "motif": "縞模様の脚と濃褐色の体",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-17",
+      "name": "ヒグマ",
+      "motif": "厚い体毛と大きな前肢",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-18",
+      "name": "シマウマ",
+      "motif": "鮮明な白黒の縞",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-19",
+      "name": "キンカジュー",
+      "motif": "金色の毛と巻きつく尾",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "mammals-20",
+      "name": "ジュゴン",
+      "motif": "丸い吻と幅広い尾びれ",
+      "size": "giant",
+      "habitat": "water"
+    }
+  ],
+  "birds": [
+    {
+      "id": "birds-01",
+      "name": "ワシミミズク",
+      "motif": "長い羽角と琥珀の瞳",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-02",
+      "name": "ハシビロコウ",
+      "motif": "巨大なくちばしと灰色の羽",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-03",
+      "name": "フラミンゴ",
+      "motif": "淡紅色の羽と長い脚",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-04",
+      "name": "コウテイペンギン",
+      "motif": "黒白の羽と黄の首筋",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "birds-05",
+      "name": "カワセミ",
+      "motif": "青い背と橙の胸",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-06",
+      "name": "ハチドリ",
+      "motif": "玉虫色の羽と細いくちばし",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-07",
+      "name": "ケツァール",
+      "motif": "緑の羽と長い飾り尾",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-08",
+      "name": "ハシブトガラス",
+      "motif": "漆黒の羽と太いくちばし",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-09",
+      "name": "オオハクチョウ",
+      "motif": "白い翼と優雅な長首",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-10",
+      "name": "シロフクロウ",
+      "motif": "白い羽と丸い顔",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-11",
+      "name": "クジャク",
+      "motif": "眼状紋の扇形尾羽",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-12",
+      "name": "エミュー",
+      "motif": "長い脚と褐色の羽",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "birds-13",
+      "name": "オオハシ",
+      "motif": "彩色された大きなくちばし",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-14",
+      "name": "ライチョウ",
+      "motif": "季節で変わる羽色と羽脚",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-15",
+      "name": "ワタリアホウドリ",
+      "motif": "極端に長い翼",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-16",
+      "name": "ヘビクイワシ",
+      "motif": "冠羽と長い脚",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-17",
+      "name": "タンチョウ",
+      "motif": "赤い頭頂と白黒の羽",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-18",
+      "name": "トキ",
+      "motif": "朱鷺色の翼と曲がったくちばし",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-19",
+      "name": "オオサイチョウ",
+      "motif": "額の大きな冠と黄色いくちばし",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "birds-20",
+      "name": "カカポ",
+      "motif": "苔色の羽と丸顔",
+      "size": "medium",
+      "habitat": "land"
+    }
+  ],
+  "reptiles": [
+    {
+      "id": "reptiles-01",
+      "name": "コモドオオトカゲ",
+      "motif": "粗い鱗と重い尾",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-02",
+      "name": "ガラパゴスゾウガメ",
+      "motif": "巨大な甲羅と太い脚",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-03",
+      "name": "エメラルドツリーボア",
+      "motif": "緑の鱗と輪状の姿勢",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-04",
+      "name": "オオヨロイトカゲ",
+      "motif": "鎧のような棘鱗",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-05",
+      "name": "ミドリイグアナ",
+      "motif": "背中の棘と長い尾",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-06",
+      "name": "エリマキトカゲ",
+      "motif": "大きく広がる首の襟",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-07",
+      "name": "ナイルワニ",
+      "motif": "歯の並ぶ長い吻",
+      "size": "giant",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "reptiles-08",
+      "name": "パンサーカメレオン",
+      "motif": "変化する鱗色と独立した目",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-09",
+      "name": "ホウシャガメ",
+      "motif": "星形の甲羅模様",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-10",
+      "name": "キングコブラ",
+      "motif": "広がる首と長い体",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-11",
+      "name": "ブルーテグー",
+      "motif": "青みある鱗と太い胴",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-12",
+      "name": "オオアタマガメ",
+      "motif": "大型の頭と長い尾",
+      "size": "medium",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "reptiles-13",
+      "name": "サバクツノトカゲ",
+      "motif": "頭部の角と砂色の棘",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-14",
+      "name": "トッケイヤモリ",
+      "motif": "青灰色の肌と橙の斑点",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-15",
+      "name": "マタマタ",
+      "motif": "枯葉状の頭部と甲羅",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "reptiles-16",
+      "name": "ヒョウモントカゲモドキ",
+      "motif": "豹柄と太い尾",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-17",
+      "name": "アオジタトカゲ",
+      "motif": "青い舌と太い胴",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-18",
+      "name": "アオウミガメ",
+      "motif": "滑らかな甲羅と大きな前鰭",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "reptiles-19",
+      "name": "ニホンマムシ",
+      "motif": "褐色の銭形紋",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "reptiles-20",
+      "name": "アルマジロトカゲ",
+      "motif": "環状の棘と鎧鱗",
+      "size": "small",
+      "habitat": "land"
+    }
+  ],
+  "amphibians": [
+    {
+      "id": "amphibians-01",
+      "name": "メキシコサンショウウオ",
+      "motif": "外鰓と微笑む顔",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "amphibians-02",
+      "name": "イチゴヤドクガエル",
+      "motif": "赤い肌と小さな黒点",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-03",
+      "name": "オオサンショウウオ",
+      "motif": "幅広い頭とひだ状の皮膚",
+      "size": "large",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "amphibians-04",
+      "name": "ヘルベンダー",
+      "motif": "平たい体と皮膚のひだ",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "amphibians-05",
+      "name": "アマガエル",
+      "motif": "緑色の肌と吸盤",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-06",
+      "name": "アカメアマガエル",
+      "motif": "赤い大きな目と橙の足",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-07",
+      "name": "ベルツノガエル",
+      "motif": "丸い胴と目上の角",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-08",
+      "name": "マダライモリ",
+      "motif": "暗色の肌と鮮やかな腹",
+      "size": "small",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "amphibians-09",
+      "name": "マーブルサラマンダー",
+      "motif": "白黒の大理石模様",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-10",
+      "name": "ファイアサラマンダー",
+      "motif": "黒地に黄色い斑紋",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-11",
+      "name": "オレンジヒキガエル",
+      "motif": "鮮橙色の小さな体",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-12",
+      "name": "ムーアガエル",
+      "motif": "青みを帯びる季節色",
+      "size": "small",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "amphibians-13",
+      "name": "ウシガエル",
+      "motif": "大きな口と重い体",
+      "size": "medium",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "amphibians-14",
+      "name": "グラスフロッグ",
+      "motif": "透ける腹と葉色の肌",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-15",
+      "name": "トラフサンショウウオ",
+      "motif": "黄黒の帯模様",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-16",
+      "name": "アフリカツメガエル",
+      "motif": "水かきと平たい体",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "amphibians-17",
+      "name": "ピパピパ",
+      "motif": "扁平な体と星形の指",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "amphibians-18",
+      "name": "オオヒキガエル",
+      "motif": "ごつごつした肌と大きな耳腺",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-19",
+      "name": "ナンベイアシナシイモリ",
+      "motif": "細長い体と環状の皮溝",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "amphibians-20",
+      "name": "イベリアトゲイモリ",
+      "motif": "胴の側面の尖った肋骨",
+      "size": "medium",
+      "habitat": "amphibious"
+    }
+  ],
+  "fish": [
+    {
+      "id": "fish-01",
+      "name": "マンタ",
+      "motif": "大きな胸鰭と優雅な翼形",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-02",
+      "name": "ジンベエザメ",
+      "motif": "星のような白斑",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-03",
+      "name": "シーラカンス",
+      "motif": "肉厚の鰭と古代的な輪郭",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-04",
+      "name": "タツノオトシゴ",
+      "motif": "馬形の頭と巻いた尾",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-05",
+      "name": "ハマクマノミ",
+      "motif": "橙と白の帯",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-06",
+      "name": "ナポレオンフィッシュ",
+      "motif": "盛り上がる額と青緑色",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-07",
+      "name": "ミノカサゴ",
+      "motif": "扇状に広がる長い棘鰭",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-08",
+      "name": "ハコフグ",
+      "motif": "箱型の胴と小さな口",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-09",
+      "name": "ベタ",
+      "motif": "絹のように広がる尾鰭",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-10",
+      "name": "アロワナ",
+      "motif": "銀色の大きな鱗と口ひげ",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-11",
+      "name": "ピラルク",
+      "motif": "赤みのある尾側の鱗",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-12",
+      "name": "トビウオ",
+      "motif": "翼状の胸鰭",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-13",
+      "name": "カジキ",
+      "motif": "長い吻と背びれ",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-14",
+      "name": "ウツボ",
+      "motif": "長い胴と大きな顎",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-15",
+      "name": "ハンマーヘッドシャーク",
+      "motif": "左右に伸びる頭部",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-16",
+      "name": "マダラトビエイ",
+      "motif": "斑点の翼形と長い尾",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-17",
+      "name": "リュウグウノツカイ",
+      "motif": "銀赤の長い帯状体",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-18",
+      "name": "チョウチョウウオ",
+      "motif": "鮮黄色の平たい体",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-19",
+      "name": "チンアナゴ",
+      "motif": "細長く直立する体",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "fish-20",
+      "name": "カクレクマノミ",
+      "motif": "濃い橙と三本の白帯",
+      "size": "small",
+      "habitat": "water"
+    }
+  ],
+  "deepsea": [
+    {
+      "id": "deepsea-01",
+      "name": "チョウチンアンコウ",
+      "motif": "発光する誘引器官",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-02",
+      "name": "デメニギス",
+      "motif": "透明な頭部と筒状の目",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-03",
+      "name": "ダイオウグソクムシ",
+      "motif": "巨大な体節と深海の装甲",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-04",
+      "name": "ダンボオクトパス",
+      "motif": "耳状の鰭と丸い胴",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-05",
+      "name": "ミツクリザメ",
+      "motif": "伸びる顎と細長い吻",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-06",
+      "name": "フクロウナギ",
+      "motif": "大きな袋状の口",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-07",
+      "name": "ホウライエソ",
+      "motif": "牙と点在する発光器",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-08",
+      "name": "ギンザメ",
+      "motif": "大きな目と鞭状の尾",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-09",
+      "name": "メンダコ",
+      "motif": "傘状の胴と短い腕",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-10",
+      "name": "クロカムリクラゲ",
+      "motif": "暗色の傘と赤い発光",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-11",
+      "name": "オニキンメ",
+      "motif": "長い牙と銅色の鱗",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-12",
+      "name": "オオグチボヤ",
+      "motif": "大きく開く袋状の口",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-13",
+      "name": "ユメナマコ",
+      "motif": "透明な桃色の体",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-14",
+      "name": "コウモリダコ",
+      "motif": "腕をつなぐ幕と赤い目",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-15",
+      "name": "サケビクニン",
+      "motif": "ゼラチン質の半透明な胴",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-16",
+      "name": "ヨコエソ",
+      "motif": "鋭い歯と銀色の側線",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-17",
+      "name": "トカゲハダカ",
+      "motif": "細長い銀黒の体",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-18",
+      "name": "ミナミハナイカ",
+      "motif": "発光模様と短い腕",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-19",
+      "name": "カイロウドウケツ",
+      "motif": "格子状のガラス骨格",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "deepsea-20",
+      "name": "シロウリガイ",
+      "motif": "乳白色の二枚貝殻",
+      "size": "medium",
+      "habitat": "water"
+    }
+  ],
+  "insects": [
+    {
+      "id": "insects-01",
+      "name": "オオカバマダラ",
+      "motif": "橙黒の翅模様",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-02",
+      "name": "ヘラクレスオオカブト",
+      "motif": "長い二本の角",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-03",
+      "name": "ギラファノコギリクワガタ",
+      "motif": "長大な大顎",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-04",
+      "name": "モルフォチョウ",
+      "motif": "金属光沢の青い翅",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-05",
+      "name": "ナナホシテントウ",
+      "motif": "赤い鞘翅と七つの黒点",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-06",
+      "name": "オオカマキリ",
+      "motif": "鎌状の前脚と三角頭",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "insects-07",
+      "name": "オニヤンマ",
+      "motif": "黒黄の縞と透明な四翅",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-08",
+      "name": "タマムシ",
+      "motif": "虹色の金属光沢",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-09",
+      "name": "オオスカシバ",
+      "motif": "透明な翅と太い胴",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-10",
+      "name": "コノハムシ",
+      "motif": "葉脈そっくりの翅",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "insects-11",
+      "name": "ハナカマキリ",
+      "motif": "蘭の花に似た脚",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "insects-12",
+      "name": "オオゴマダラ",
+      "motif": "白黒斑の大きな翅",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-13",
+      "name": "ゲンゴロウ",
+      "motif": "流線の体と水かき脚",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "insects-14",
+      "name": "ミヤマクワガタ",
+      "motif": "冠状の大顎",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-15",
+      "name": "カブトムシ",
+      "motif": "湾曲した一本角",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-16",
+      "name": "アゲハチョウ",
+      "motif": "黄黒の翅と尾状突起",
+      "size": "tiny",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-17",
+      "name": "クマバチ",
+      "motif": "黒金の毛と頑丈な体",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "insects-18",
+      "name": "ツノゼミ",
+      "motif": "奇妙に伸びた背面の角",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "insects-19",
+      "name": "ハンミョウ",
+      "motif": "虹色の硬い鞘翅",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "insects-20",
+      "name": "オオコノハズクムシ",
+      "motif": "枯葉状の擬態と広い翅",
+      "size": "small",
+      "habitat": "land"
+    }
+  ],
+  "spiders": [
+    {
+      "id": "spiders-01",
+      "name": "ゴライアスバードイーター",
+      "motif": "太い毛脚と大きな腹部",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-02",
+      "name": "ピーコックスパイダー",
+      "motif": "虹色の扇形腹部",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-03",
+      "name": "アダンソンハエトリ",
+      "motif": "大きな前向きの目",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-04",
+      "name": "ジョロウグモ",
+      "motif": "黄黒の縞と長い脚",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-05",
+      "name": "オレンジバブーンタランチュラ",
+      "motif": "橙の毛と力強い脚",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-06",
+      "name": "オオヒメグモ",
+      "motif": "球形の腹部と細い脚",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-07",
+      "name": "コガネグモ",
+      "motif": "黄黒の腹と円網",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-08",
+      "name": "アシダカグモ",
+      "motif": "長く横へ広がる脚",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-09",
+      "name": "ササグモ",
+      "motif": "緑の腹と脚の棘",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-10",
+      "name": "ワカバグモ",
+      "motif": "葉色の体と長い前脚",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-11",
+      "name": "ミズグモ",
+      "motif": "水中の銀色の気泡",
+      "size": "tiny",
+      "habitat": "water"
+    },
+    {
+      "id": "spiders-12",
+      "name": "トゲグモ",
+      "motif": "横へ張り出す腹部の棘",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-13",
+      "name": "ナゲナワグモ",
+      "motif": "糸先の粘球を操る姿",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-14",
+      "name": "ハナグモ",
+      "motif": "白い体と横向きの前脚",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-15",
+      "name": "キムラグモ",
+      "motif": "腹部の節板を残す体",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-16",
+      "name": "ジグモ",
+      "motif": "地中へ続く袋状の巣",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-17",
+      "name": "ヒヨケムシ",
+      "motif": "巨大な鋏角と淡い体色",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-18",
+      "name": "サソリモドキ",
+      "motif": "長い鞭状の尾と大きな触肢",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-19",
+      "name": "カニグモ",
+      "motif": "横歩きの短い胴と脚",
+      "size": "tiny",
+      "habitat": "land"
+    },
+    {
+      "id": "spiders-20",
+      "name": "ネコハエトリ",
+      "motif": "丸い瞳と短い毛脚",
+      "size": "tiny",
+      "habitat": "land"
+    }
+  ],
+  "crustaceans": [
+    {
+      "id": "crustaceans-01",
+      "name": "タカアシガニ",
+      "motif": "異様に長い脚",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-02",
+      "name": "ヤシガニ",
+      "motif": "強靭な鋏と陸上の巨体",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "crustaceans-03",
+      "name": "アメリカザリガニ",
+      "motif": "赤い大きな鋏",
+      "size": "medium",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "crustaceans-04",
+      "name": "ニシキエビ",
+      "motif": "長い触角と斑模様",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-05",
+      "name": "イセエビ",
+      "motif": "棘ある甲殻と長い触角",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-06",
+      "name": "シャコ",
+      "motif": "高速の捕脚と虹色の眼",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-07",
+      "name": "オカヤドカリ",
+      "motif": "巻き貝殻を背負う姿",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "crustaceans-08",
+      "name": "ワタリガニ",
+      "motif": "櫂状の後脚と扁平な甲羅",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-09",
+      "name": "サワガニ",
+      "motif": "小さな鋏と黒褐の甲羅",
+      "size": "small",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "crustaceans-10",
+      "name": "フジツボ",
+      "motif": "岩に固着する石灰質の殻",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-11",
+      "name": "アミメノコギリガザミ",
+      "motif": "鋸歯の甲と太い鋏",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-12",
+      "name": "コシオリエビ",
+      "motif": "短い腹と長い鋏脚",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-13",
+      "name": "テナガエビ",
+      "motif": "非常に長い第二歩脚",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-14",
+      "name": "クリル",
+      "motif": "透明な胴と発光器",
+      "size": "tiny",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-15",
+      "name": "ヨコエビ",
+      "motif": "横に扁平な胴体",
+      "size": "tiny",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-16",
+      "name": "カブトエビ",
+      "motif": "盾形の背甲と三叉の尾",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-17",
+      "name": "ホウネンエビ",
+      "motif": "仰向けで泳ぐ羽脚",
+      "size": "tiny",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-18",
+      "name": "アナジャコ",
+      "motif": "柔らかな胴と掘削用の鋏",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-19",
+      "name": "ケガニ",
+      "motif": "毛に覆われた甲羅",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "crustaceans-20",
+      "name": "シオマネキ",
+      "motif": "左右非対称の大きな鋏",
+      "size": "small",
+      "habitat": "amphibious"
+    }
+  ],
+  "mollusks": [
+    {
+      "id": "mollusks-01",
+      "name": "アオミノウミウシ",
+      "motif": "青い枝状の突起",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-02",
+      "name": "ミズダコ",
+      "motif": "長い八本腕と吸盤",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-03",
+      "name": "オウムガイ",
+      "motif": "螺旋殻と多数の触手",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-04",
+      "name": "アフリカマイマイ",
+      "motif": "大きな螺旋殻と触角",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "mollusks-05",
+      "name": "アメフラシ",
+      "motif": "柔らかなひれ状の側足",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-06",
+      "name": "ミミイカ",
+      "motif": "丸い胴と短い腕",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-07",
+      "name": "ホタルイカ",
+      "motif": "青く光る発光器",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-08",
+      "name": "コウイカ",
+      "motif": "幅広い鰭と墨袋",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-09",
+      "name": "ヒョウモンダコ",
+      "motif": "青い輪の鮮明な模様",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-10",
+      "name": "クリオネ",
+      "motif": "透明な翼足と小さな角",
+      "size": "tiny",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-11",
+      "name": "ウミウサギガイ",
+      "motif": "光沢のある白い殻",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-12",
+      "name": "アワビ",
+      "motif": "真珠層の輝く平たい殻",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-13",
+      "name": "ホタテガイ",
+      "motif": "放射肋のある扇形の殻",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-14",
+      "name": "コンクガイ",
+      "motif": "大きく反った唇状の殻",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-15",
+      "name": "ムラサキウミウシ",
+      "motif": "紫色の波打つ外套",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-16",
+      "name": "カタツムリ",
+      "motif": "螺旋殻と長い触角",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "mollusks-17",
+      "name": "ナメクジ",
+      "motif": "殻のない柔らかな体",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "mollusks-18",
+      "name": "オオシャコガイ",
+      "motif": "巨大な波形の二枚貝",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-19",
+      "name": "トグロコウイカ",
+      "motif": "巻いた独特の触腕",
+      "size": "medium",
+      "habitat": "water"
+    },
+    {
+      "id": "mollusks-20",
+      "name": "イイダコ",
+      "motif": "小柄な胴と細い八本腕",
+      "size": "small",
+      "habitat": "water"
+    }
+  ],
+  "dinosaurs": [
+    {
+      "id": "dinosaurs-01",
+      "name": "ティラノサウルス",
+      "motif": "巨大な顎と短い前肢",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-02",
+      "name": "トリケラトプス",
+      "motif": "三本の角と大きな襟飾り",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-03",
+      "name": "ヴェロキラプトル",
+      "motif": "羽毛と鎌形の後脚爪",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-04",
+      "name": "ステゴサウルス",
+      "motif": "背中の大きな骨板",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-05",
+      "name": "ブラキオサウルス",
+      "motif": "高い肩と長い首",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-06",
+      "name": "アンキロサウルス",
+      "motif": "装甲板と尾の棍棒",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-07",
+      "name": "スピノサウルス",
+      "motif": "背中の帆と長い吻",
+      "size": "giant",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "dinosaurs-08",
+      "name": "パラサウロロフス",
+      "motif": "後頭部の長い鶏冠",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-09",
+      "name": "ディロフォサウルス",
+      "motif": "二列の頭骨冠",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-10",
+      "name": "カルノタウルス",
+      "motif": "目の上の短い角",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-11",
+      "name": "アロサウルス",
+      "motif": "三本指の爪と大きな顎",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-12",
+      "name": "ガリミムス",
+      "motif": "走る脚と細い首",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-13",
+      "name": "パキケファロサウルス",
+      "motif": "分厚いドーム頭",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-14",
+      "name": "イグアノドン",
+      "motif": "親指の大きな棘",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-15",
+      "name": "オヴィラプトル",
+      "motif": "羽毛と頭部の冠",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-16",
+      "name": "デイノニクス",
+      "motif": "大きな鉤爪と羽毛",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-17",
+      "name": "コンプソグナトゥス",
+      "motif": "細身の小さな体",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-18",
+      "name": "テリジノサウルス",
+      "motif": "異常に長い前肢爪",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-19",
+      "name": "マイアサウラ",
+      "motif": "幅広い嘴と優しい輪郭",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "dinosaurs-20",
+      "name": "プシッタコサウルス",
+      "motif": "オウム形の嘴と尾の剛毛",
+      "size": "medium",
+      "habitat": "land"
+    }
+  ],
+  "ancient": [
+    {
+      "id": "ancient-01",
+      "name": "マンモス",
+      "motif": "長い牙と厚い体毛",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-02",
+      "name": "サーベルタイガー",
+      "motif": "剣形の犬歯",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-03",
+      "name": "メガテリウム",
+      "motif": "巨大なナマケモノの鉤爪",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-04",
+      "name": "ドードー",
+      "motif": "ずんぐりした体と曲がる嘴",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-05",
+      "name": "ディメトロドン",
+      "motif": "高い背中の帆",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-06",
+      "name": "ダンクルオステウス",
+      "motif": "分厚い頭甲と刃状の顎",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-07",
+      "name": "アノマロカリス",
+      "motif": "頭部の二本の捕獲付属肢",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-08",
+      "name": "オパビニア",
+      "motif": "五つの眼と長い吻",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-09",
+      "name": "ハルキゲニア",
+      "motif": "背の棘と細い脚",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-10",
+      "name": "ウミサソリ",
+      "motif": "節足の巨体と鋏角",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-11",
+      "name": "グリプトドン",
+      "motif": "球形の装甲と太い尾",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-12",
+      "name": "ケナガサイ",
+      "motif": "毛深い体と二本の角",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-13",
+      "name": "モア",
+      "motif": "巨大な脚と翼のない体",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "ancient-14",
+      "name": "ケツァルコアトルス",
+      "motif": "細長い翼と巨大な嘴",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "ancient-15",
+      "name": "プテラノドン",
+      "motif": "後方へ伸びる頭冠",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "ancient-16",
+      "name": "エラスモサウルス",
+      "motif": "非常に長い首と四つの鰭",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-17",
+      "name": "モササウルス",
+      "motif": "巨大な海棲爬虫類の顎",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-18",
+      "name": "アーケロン",
+      "motif": "巨大な海亀の前鰭",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "ancient-19",
+      "name": "ティタノボア",
+      "motif": "超巨大な蛇体",
+      "size": "giant",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "ancient-20",
+      "name": "メガロドン",
+      "motif": "巨大な三角歯と流線形",
+      "size": "giant",
+      "habitat": "water"
+    }
+  ],
+  "mythic": [
+    {
+      "id": "mythic-01",
+      "name": "麒麟",
+      "motif": "鹿に似た体と聖なる角",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "mythic-02",
+      "name": "フェニックス",
+      "motif": "炎の尾羽と再生の輝き",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-03",
+      "name": "ユニコーン",
+      "motif": "螺旋の一本角",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mythic-04",
+      "name": "グリフォン",
+      "motif": "鷲の頭と獅子の胴",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-05",
+      "name": "ペガサス",
+      "motif": "白馬の背の大きな翼",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-06",
+      "name": "ケルベロス",
+      "motif": "三つの犬頭と冥府の鎖",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "mythic-07",
+      "name": "バジリスク",
+      "motif": "冠状の頭部と石化の眼",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "mythic-08",
+      "name": "ヒッポカンポス",
+      "motif": "馬の前半身と魚の尾",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "mythic-09",
+      "name": "九尾の狐",
+      "motif": "九本の尾と妖気",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "mythic-10",
+      "name": "白澤",
+      "motif": "多眼の神獣と古文様",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "mythic-11",
+      "name": "ガルーダ",
+      "motif": "黄金の翼と神鳥の鉤爪",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-12",
+      "name": "玄武",
+      "motif": "亀と蛇が合わさる神獣",
+      "size": "giant",
+      "habitat": "amphibious"
+    },
+    {
+      "id": "mythic-13",
+      "name": "青龍",
+      "motif": "青緑の鱗と長い龍体",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-14",
+      "name": "朱雀",
+      "motif": "朱色の神聖な羽",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-15",
+      "name": "白虎",
+      "motif": "白い毛並みと黒い縞",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "mythic-16",
+      "name": "スフィンクス",
+      "motif": "人面と獅子の身体",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "mythic-17",
+      "name": "カーバンクル",
+      "motif": "額の宝石と小さな獣体",
+      "size": "small",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "mythic-18",
+      "name": "ドラゴン",
+      "motif": "大きな翼と長い龍の尾",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "mythic-19",
+      "name": "リヴァイアサン",
+      "motif": "海を覆う巨大な鱗体",
+      "size": "giant",
+      "habitat": "water"
+    },
+    {
+      "id": "mythic-20",
+      "name": "八咫烏",
+      "motif": "三本脚と漆黒の羽",
+      "size": "large",
+      "habitat": "air"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "monsters-01",
+      "name": "スライム",
+      "motif": "透明な粘体と内部の光",
+      "size": "medium",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-02",
+      "name": "ミミック",
+      "motif": "牙のある宝箱の口",
+      "size": "medium",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-03",
+      "name": "ゴーレム",
+      "motif": "岩塊の関節と古代刻印",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-04",
+      "name": "キメラ",
+      "motif": "獅子・山羊・蛇の複合体",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-05",
+      "name": "ミノタウロス",
+      "motif": "牛頭と巨大な角",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-06",
+      "name": "ワイバーン",
+      "motif": "二脚と膜翼と毒尾",
+      "size": "giant",
+      "habitat": "air"
+    },
+    {
+      "id": "monsters-07",
+      "name": "グール",
+      "motif": "痩せた四肢と不気味な眼",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-08",
+      "name": "マンドラゴラ",
+      "motif": "根の脚と葉の髪",
+      "size": "small",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-09",
+      "name": "トレント",
+      "motif": "木の幹の手足と苔",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-10",
+      "name": "オーガ",
+      "motif": "大きな牙と重厚な体格",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-11",
+      "name": "コカトリス",
+      "motif": "鶏冠と爬虫類の尾",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-12",
+      "name": "リッチ",
+      "motif": "古い王冠と浮遊する骨格",
+      "size": "medium",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-13",
+      "name": "ガーゴイル",
+      "motif": "石造りの翼と爪",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "monsters-14",
+      "name": "ドッペルゲンガー",
+      "motif": "揺らぐ輪郭と影の分身",
+      "size": "medium",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-15",
+      "name": "ウィスプ",
+      "motif": "宙を漂う火の魂",
+      "size": "tiny",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-16",
+      "name": "ジャイアントワーム",
+      "motif": "環節の長い巨体",
+      "size": "giant",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-17",
+      "name": "サンドゴーレム",
+      "motif": "砂粒で構成された拳",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "monsters-18",
+      "name": "クリスタルビースト",
+      "motif": "透過する結晶質の獣体",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-19",
+      "name": "シャドウハウンド",
+      "motif": "黒い煙をまとう犬型",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "monsters-20",
+      "name": "アビスウォーカー",
+      "motif": "深淵を歩く細長い多脚",
+      "size": "giant",
+      "habitat": "fantasy"
+    }
+  ],
+  "original": [
+    {
+      "id": "original-01",
+      "name": "星紡ぎのルミア",
+      "motif": "星を編む糸状の尾",
+      "size": "small",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-02",
+      "name": "苔冠のルオル",
+      "motif": "苔の冠と光る瞳",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "original-03",
+      "name": "宙泳ぎのフィロム",
+      "motif": "空中を泳ぐ透明な鰭",
+      "size": "large",
+      "habitat": "air"
+    },
+    {
+      "id": "original-04",
+      "name": "硝子角のセレノ",
+      "motif": "ガラス質の枝角",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-05",
+      "name": "雲食みのモフラ",
+      "motif": "雲を食べる丸い口",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "original-06",
+      "name": "暁羽のテラミ",
+      "motif": "朝焼け色の二重羽",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "original-07",
+      "name": "砂時計獣トゥル",
+      "motif": "砂が流れる透明な腹部",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "original-08",
+      "name": "月輪のカラハ",
+      "motif": "背に浮かぶ月形の輪",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-09",
+      "name": "結晶尾のヴェルミ",
+      "motif": "結晶が房になる長尾",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "original-10",
+      "name": "虹鉱のピュルカ",
+      "motif": "虹色の鉱石質の皮膚",
+      "size": "small",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-11",
+      "name": "深霧のネブラ",
+      "motif": "霧を纏った七つの眼",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-12",
+      "name": "森灯のナヴァ",
+      "motif": "枝角の先で灯る小さな炎",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "original-13",
+      "name": "鈴鱗のイシェラ",
+      "motif": "動くたび鳴る鐘形の鱗",
+      "size": "large",
+      "habitat": "water"
+    },
+    {
+      "id": "original-14",
+      "name": "宙花のポリュン",
+      "motif": "花弁型の浮遊器官",
+      "size": "small",
+      "habitat": "air"
+    },
+    {
+      "id": "original-15",
+      "name": "夜雨のグラセ",
+      "motif": "雨粒を蓄える翅",
+      "size": "medium",
+      "habitat": "air"
+    },
+    {
+      "id": "original-16",
+      "name": "風刻のアズルゥ",
+      "motif": "風の紋様を描く六本脚",
+      "size": "large",
+      "habitat": "land"
+    },
+    {
+      "id": "original-17",
+      "name": "氷冠のモルネ",
+      "motif": "氷結晶の頭冠と淡い毛",
+      "size": "medium",
+      "habitat": "land"
+    },
+    {
+      "id": "original-18",
+      "name": "光環のセプラ",
+      "motif": "浮遊する複数の光輪",
+      "size": "large",
+      "habitat": "fantasy"
+    },
+    {
+      "id": "original-19",
+      "name": "泡紋のリュフ",
+      "motif": "泡を吹く半透明の胴",
+      "size": "small",
+      "habitat": "water"
+    },
+    {
+      "id": "original-20",
+      "name": "琥珀眼のトパリス",
+      "motif": "琥珀の多面眼と長い耳",
+      "size": "small",
+      "habitat": "land"
+    }
+  ]
+}

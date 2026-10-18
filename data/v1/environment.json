@@ -1,0 +1,20 @@
+[
+  {"id":"forest","name":"月光の古代樹林","direction":"月光が差し込む巨大な古代樹の森","habitats":["land","air","amphibious","fantasy"]},
+  {"id":"desert","name":"紅砂の遺跡","direction":"赤い砂が舞う忘れられた遺跡","habitats":["land","air","fantasy"]},
+  {"id":"cliff","name":"雲上の断崖","direction":"流れる雲と鋭い岩峰の断崖","habitats":["land","air","fantasy"]},
+  {"id":"library","name":"宙に浮かぶ図書宮","direction":"光る本が漂う空中図書宮","habitats":["land","air","fantasy"]},
+  {"id":"reef","name":"光珊瑚の海底庭園","direction":"発光する珊瑚が広がる幻想的な海底","habitats":["water","amphibious","fantasy"]},
+  {"id":"abyss","name":"深淵の発光峡谷","direction":"暗い水中峡谷と点在する生体発光","habitats":["water","fantasy"]},
+  {"id":"shore","name":"星降る水鏡の浜","direction":"星空を映す潮だまりの浜辺","habitats":["land","water","amphibious","air","fantasy"]},
+  {"id":"aurora","name":"極光の氷原","direction":"極光に包まれる氷の大地","habitats":["land","air","amphibious","fantasy"]},
+  {"id":"volcano","name":"黒曜石の火山域","direction":"黒曜石と溶岩が照らす火山の谷","habitats":["land","air","fantasy"]},
+  {"id":"ruin","name":"苔の天空遺跡","direction":"雲と苔に包まれた浮遊する石造遺跡","habitats":["land","air","fantasy"]},
+  {"id":"crystal","name":"水晶の地底湖","direction":"大きな水晶と澄んだ地底湖","habitats":["land","water","amphibious","fantasy"]},
+  {"id":"mist","name":"霧の花園","direction":"柔らかな霧が漂う巨大な花の庭園","habitats":["land","air","amphibious","fantasy"]},
+  {"id":"sky","name":"星雲の浮島群","direction":"星雲の下を巡る無数の浮島","habitats":["air","fantasy"]},
+  {"id":"cave","name":"琥珀の洞窟","direction":"琥珀色の結晶が輝く洞窟","habitats":["land","amphibious","fantasy"]},
+  {"id":"waterfall","name":"虹霧の大瀑布","direction":"虹色の霧が立ち上る広大な滝","habitats":["land","water","amphibious","air","fantasy"]},
+  {"id":"temple","name":"忘却の天文台","direction":"巨大な星図が回る崩れた天文台","habitats":["land","air","fantasy"]},
+  {"id":"ocean","name":"夜光の外洋","direction":"夜光虫の波が続く広大な海","habitats":["water","air","fantasy"]},
+  {"id":"river","name":"翡翠の水脈","direction":"緑に透ける古代の地下水路","habitats":["water","amphibious","fantasy"]}
+]

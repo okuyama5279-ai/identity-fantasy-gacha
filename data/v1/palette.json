@@ -1,0 +1,18 @@
+[
+  {"id":"vermilion","name":"朱紅×黒鉄","direction":"朱紅と黒鉄、暖かな火花"},
+  {"id":"jade","name":"翡翠×象牙","direction":"翡翠緑と象牙色、葉脈の光"},
+  {"id":"violet","name":"菫紫×銅","direction":"菫紫と銅色、夕影の輝き"},
+  {"id":"amber","name":"琥珀×深緑","direction":"琥珀と深緑、木漏れ日の光"},
+  {"id":"rose","name":"薔薇紅×墨","direction":"薔薇紅と墨色、柔らかな反射"},
+  {"id":"saffron","name":"山吹×群青","direction":"山吹色と群青、鮮烈な対比"},
+  {"id":"ash","name":"灰銀×赤銅","direction":"灰銀と赤銅、鈍い金属光"},
+  {"id":"teal","name":"青緑×珊瑚","direction":"青緑と珊瑚色、透明な反射"},
+  {"id":"indigo","name":"藍×萌黄","direction":"藍と萌黄、深い夜の差し色"},
+  {"id":"ivory","name":"生成×葡萄","direction":"生成色と葡萄色、穏やかな陰影"},
+  {"id":"rust","name":"錆色×浅葱","direction":"錆色と浅葱色、古代金属の質感"},
+  {"id":"orchid","name":"蘭紫×黄緑","direction":"蘭紫と黄緑、幻想的な植物光"},
+  {"id":"charcoal","name":"炭黒×薄紅","direction":"炭黒と薄紅、ドラマチックな逆光"},
+  {"id":"cobalt","name":"瑠璃×橙","direction":"瑠璃色と橙色、明瞭な補色"},
+  {"id":"moss","name":"苔緑×緋","direction":"苔緑と緋色、湿った石の反射"},
+  {"id":"silver","name":"銀鼠×紫紺","direction":"銀鼠と紫紺、落ち着いた反射光"}
+]

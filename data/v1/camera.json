@@ -1,0 +1,9 @@
+[
+  {"id":"front","name":"正面","direction":"二人を捉える正面の構図"},
+  {"id":"oblique","name":"斜め前","direction":"奥行きのある斜め前からの視点"},
+  {"id":"low","name":"ローアングル","direction":"英雄的なローアングル、顔は明瞭"},
+  {"id":"high","name":"俯瞰","direction":"適度な俯瞰、顔と相棒の両方が識別可能"},
+  {"id":"wide","name":"広角","direction":"自然なパースの広角、顔の形は歪めない"},
+  {"id":"far","name":"遠景","direction":"物語性のある遠景、顔の識別に必要な大きさを確保"},
+  {"id":"dutch","name":"斜めの躍動構図","direction":"躍動感のある斜め構図、顔の角度は自然"}
+]

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0c1327">
+  <meta name="description" content="運命の相棒ガチャ。15系統・300種類の生物からあなたの相棒を独立抽選。プロンプトをコピーしてChatGPTでファンタジー画像を召喚しよう。写真アップロード不要・無料。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="運命の相棒ガチャ">
+  <meta property="og:title" content="運命の相棒ガチャ — Identity Fantasy Gacha">
+  <meta property="og:description" content="15系統・300種類から運命の相棒を召喚。写真をサイトに渡さず、ChatGPTで自分だけのファンタジーを。">
+  <meta property="og:url" content="https://okuyama5279-ai.github.io/identity-fantasy-gacha/">
+  <meta property="og:image" content="https://okuyama5279-ai.github.io/identity-fantasy-gacha/assets/ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./style.css">
+  <title>運命の相棒ガチャ — Identity Fantasy Gacha</title>
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <div class="page-aurora" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="masthead">
+      <a href="./" class="brand" aria-label="運命の相棒ガチャ トップ">
+        <span class="brand-sigil" aria-hidden="true">✦</span>
+        <span>IDENTITY FANTASY <small>GACHA</small></span>
+      </a>
+      <span class="version" id="version-label">DRAW ENGINE v1</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-mark" aria-hidden="true"><span>✧</span><span class="ring"></span><span class="ring ring-second"></span></div>
+        <p class="eyebrow">WHO WILL ANSWER YOUR CALL?</p>
+        <h1 id="hero-title">運命の<span>相棒</span>ガチャ</h1>
+        <p class="hero-sub">あなたの運命の相棒を召喚しよう。</p>
+        <p class="hero-desc">生き物も、世界も、毎回未知との出会い。<br>ガチャを回して、あなただけの物語へ。</p>
+        <div class="stats" aria-label="ガチャの仕様">
+          <div><b>15</b><span>生物系統</span></div>
+          <div class="stats-divider" aria-hidden="true"></div>
+          <div><b id="creature-count">300種類</b><span>相棒候補</span></div>
+          <div class="stats-divider" aria-hidden="true"></div>
+          <div><b>★1–6</b><span>レアリティ</span></div>
+        </div>
+        <button type="button" class="primary draw" id="draw-button" disabled>
+          <span aria-hidden="true">✦</span> ガチャを回す <span aria-hidden="true">✦</span>
+        </button>
+        <p class="micro">無料 · ログイン不要 · 写真アップロード不要</p>
+      </section>
+
+      <section class="intro" id="intro" aria-label="あそびかた">
+        <h2>召喚の手順</h2>
+        <div class="steps">
+          <div><span class="step-num">01</span><strong>相棒を抽選</strong><p>生物・レアリティ・世界観まで確定。</p></div>
+          <div><span class="step-num">02</span><strong>プロンプトをコピー</strong><p>ワンタップで召喚文を持ち運ぶ。</p></div>
+          <div><span class="step-num">03</span><strong>ChatGPTで画像化</strong><p>自分の顔写真と一緒に送信する。</p></div>
+        </div>
+      </section>
+
+      <section class="result" id="result" hidden aria-labelledby="result-heading">
+        <div class="result-head">
+          <p class="eyebrow">YOUR DESTINED COMPANION</p>
+          <h2 id="result-heading">召喚結果</h2>
+          <div id="stars" class="stars" aria-label="レアリティ"></div>
+          <p class="rarity-name" id="rarity-name"></p>
+        </div>
+        <div class="summon-card">
+          <div class="summon-card-top"><span>SUMMON RECORD</span><span>✧ ✦ ✧</span></div>
+          <span class="small-label">あなたの相棒</span>
+          <h3 id="result-title"></h3>
+          <p class="category" id="category"></p>
+          <div class="motif" aria-hidden="true">✧</div>
+          <dl class="result-stats">
+            <div><dt>構図</dt><dd id="pose"></dd></div>
+            <div><dt>カメラ</dt><dd id="camera"></dd></div>
+            <div><dt>背景</dt><dd id="environment"></dd></div>
+            <div><dt>色彩</dt><dd id="palette"></dd></div>
+          </dl>
+        </div>
+        <div class="prompt-panel">
+          <div class="prompt-heading"><div><h3>召喚プロンプト</h3><p>この文章と顔写真をChatGPTへ送信</p></div><span id="char-count">0 / 1000文字</span></div>
+          <label class="sr-only" for="prompt">ChatGPT用の召喚プロンプト</label>
+          <textarea readonly spellcheck="false" id="prompt"></textarea>
+          <button type="button" class="primary" id="copy-button"> <span aria-hidden="true">⧉</span> プロンプトをコピー</button>
+          <a class="secondary chatgpt-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPTを開く <span aria-hidden="true">↗</span></a>
+          <p class="help">ChatGPTで顔写真を添付し、コピーした文章を貼り付けて送信してください。自動送信はしません。</p>
+        </div>
+        <div class="after-actions">
+          <button type="button" id="redraw-button" class="outline">↻ もう一度ガチャ</button>
+          <button type="button" id="share-button" class="outline">𝕏 で結果をシェア</button>
+          <button type="button" id="link-button" class="quiet">再現用URLをコピー</button>
+        </div>
+        <details class="seed-panel"><summary>抽選seed・再現情報</summary><p>同じseed・同じデータ版・同じ抽選アルゴリズムなら同じ結果を復元できます。画像自体の再現は保証しません。</p><code id="seed"></code></details>
+      </section>
+
+      <p class="status" id="status" role="status" aria-live="polite"></p>
+
+      <section class="about" aria-labelledby="about-title">
+        <div class="about-icon" aria-hidden="true">✦</div>
+        <h2 id="about-title">出会いは、完全にランダム。</h2>
+        <p>15系統はそれぞれ同じ確率で抽選されます。相棒もレアリティも、前回の結果や顔写真とは無関係。同じ相棒が続けて現れることもあります。</p>
+        <p>このサイトは写真・プロンプト・抽選結果をサーバーへ送信しません。画像生成はChatGPT側で行われ、完成結果の一致は保証されません。</p>
+      </section>
+    </main>
+
+    <footer>IDENTITY FANTASY GACHA <span>·</span> BROWSER-ONLY DRAW v1</footer>
+  </div>
+</body>
+</html>
