@@ -7,12 +7,14 @@ const el = {
   stars: $('stars'), pose: $('pose'), camera: $('camera'),
   environment: $('environment'), palette: $('palette'), seed: $('seed'),
   prompt: $('prompt'), count: $('char-count'), copy: $('copy-button'),
+  copyLabel: $('copy-label'), copyFeedback: $('copy-feedback'),
   link: $('link-button'), share: $('share-button'), status: $('status'),
   intro: $('intro'), version: $('version-label'),
 };
 let data = null;
 let result = null;
 let busy = false;
+let copyFeedbackTimer = null;
 
 async function readJSON(path) {
   const response = await fetch(path);
@@ -73,6 +75,7 @@ async function renderDraw(seed, fromLink = false) {
     el.palette.textContent = candidate.palette.name;
     el.seed.textContent = candidate.seed;
     el.prompt.value = prompt;
+    resetCopyFeedback();
     el.count.textContent = `${prompt.length} / 1000文字`;
     el.count.classList.toggle('over-limit', prompt.length > 1000);
     el.result.hidden = false;
@@ -94,28 +97,50 @@ function showStatus(message, isError = false) {
   el.status.classList.toggle('error', isError);
 }
 
-async function copyText(content, onDone) {
+function resetCopyFeedback() {
+  if (copyFeedbackTimer !== null) clearTimeout(copyFeedbackTimer);
+  copyFeedbackTimer = null;
+  el.copyLabel.textContent = 'プロンプトをコピー';
+  el.copy.classList.remove('is-copied');
+  el.copyFeedback.hidden = true;
+  el.copyFeedback.textContent = '';
+  el.copyFeedback.classList.remove('error');
+}
+
+function notifyCopy(message, success, isPrompt) {
+  showStatus(message, !success);
+  if (!isPrompt) return;
+  if (copyFeedbackTimer !== null) clearTimeout(copyFeedbackTimer);
+  el.copyLabel.textContent = success ? '✓ コピーしました' : 'コピーを再試行';
+  el.copy.classList.toggle('is-copied', success);
+  el.copyFeedback.hidden = false;
+  el.copyFeedback.textContent = message;
+  el.copyFeedback.classList.toggle('error', !success);
+  copyFeedbackTimer = setTimeout(resetCopyFeedback, 4000);
+}
+
+async function copyText(content, onDone, isPrompt = false) {
   if (!content) return;
+  // Clipboard APIはユーザーが押した直後に呼び出す（iPhone Safariの操作権限）。
   try {
-    // Called synchronously from a genuine click: Safari user activation is required.
     if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable');
     await navigator.clipboard.writeText(content);
-    showStatus(onDone);
+    notifyCopy(onDone, true, isPrompt);
   } catch (_) {
     el.prompt.value = content;
     el.prompt.focus();
     el.prompt.select();
     let copied = false;
     try { copied = document.execCommand('copy'); } catch (_) {}
-    if (copied) showStatus(onDone);
-    else showStatus('コピーできませんでした。選択中のテキストを手動でコピーしてください。', true);
-    if (result) el.prompt.value = promptFor(result, data.template);
+    if (copied) notifyCopy(onDone, true, isPrompt);
+    else notifyCopy('コピーできませんでした。選択中のテキストを手動でコピーしてください。', false, isPrompt);
+    if (copied && result) el.prompt.value = promptFor(result, data.template);
   }
 }
 
 el.draw.addEventListener('click', () => renderDraw(generateSeed()));
 el.redraw.addEventListener('click', () => renderDraw(generateSeed()));
-el.copy.addEventListener('click', () => copyText(el.prompt.value, 'プロンプトをコピーしました。ChatGPTで顔写真と一緒に送信してください。'));
+el.copy.addEventListener('click', () => copyText(el.prompt.value, 'コピー完了。ChatGPTアプリを開いて、顔写真と一緒に貼り付けてください。', true));
 el.link.addEventListener('click', () => {
   if (result) copyText(resultUrl(result, location.href), '再現用URLをコピーしました。');
 });

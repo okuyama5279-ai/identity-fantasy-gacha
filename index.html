@@ -83,9 +83,10 @@
           <div class="prompt-heading"><div><h3>召喚プロンプト</h3><p>この文章と顔写真をChatGPTへ送信</p></div><span id="char-count">0 / 1000文字</span></div>
           <label class="sr-only" for="prompt">ChatGPT用の召喚プロンプト</label>
           <textarea readonly spellcheck="false" id="prompt"></textarea>
-          <button type="button" class="primary" id="copy-button"> <span aria-hidden="true">⧉</span> プロンプトをコピー</button>
-          <a class="secondary chatgpt-link" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">ChatGPTを開く <span aria-hidden="true">↗</span></a>
-          <p class="help">ChatGPTで顔写真を添付し、コピーした文章を貼り付けて送信してください。自動送信はしません。</p>
+          <button type="button" class="primary" id="copy-button"><span aria-hidden="true">⧉</span> <span id="copy-label">プロンプトをコピー</span></button>
+          <p class="copy-feedback" id="copy-feedback" role="status" aria-live="polite" hidden></p>
+          <a class="secondary chatgpt-link" href="https://chatgpt.com/#native" target="_blank" rel="noopener noreferrer">ChatGPTを開く（アプリ優先） <span aria-hidden="true">↗</span></a>
+          <p class="help">コピーした文章と顔写真をChatGPTへ送信してください。自動送信はしません。アプリが開かない場合は、ChatGPTアプリを直接開くか、Safariでこのリンクをお試しください。</p>
         </div>
         <div class="after-actions">
           <button type="button" id="redraw-button" class="outline">↻ もう一度ガチャ</button>

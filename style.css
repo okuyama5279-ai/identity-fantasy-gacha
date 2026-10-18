@@ -10,3 +10,8 @@
 @media(min-width:700px){.hero{padding:83px 0 62px}.steps{gap:17px}.steps>div{padding:24px}.prompt-panel{padding:25px}}
 @media(max-width:520px){.shell{width:calc(100% - 30px)}.masthead{min-height:64px}.brand{font-size:10px;letter-spacing:.08em}.brand small{font-size:9px}.version{font-size:9px}.hero{padding:62px 0 37px}.hero-desc{font-size:12px}.stats{gap:16px}.stats b{font-size:18px}.stats>div:not(.stats-divider){min-width:60px}.intro{padding:18px 0 46px}.steps{grid-template-columns:1fr;gap:9px}.steps>div{display:grid;grid-template-columns:40px 1fr;column-gap:8px;min-height:0;padding:15px 18px;align-items:start}.steps .step-num{grid-row:span 2;font-size:24px;margin:0}.steps strong{font-size:12px}.steps p{font-size:11px;margin-top:1px}.summon-card{padding:20px 15px 15px}.result-stats>div{padding:12px 10px}.result-stats dd{font-size:12px}.prompt-panel{padding:15px}.after-actions{gap:7px}.outline{font-size:11px;padding:8px 4px}.hero-sub{font-size:15px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Mobile copy confirmation: positioned directly below the copy button. */
+.prompt-panel .primary.is-copied{background:linear-gradient(135deg,#f7eacb,#f0cd88);border-color:#ffe7a9}
+.copy-feedback{font-size:12px;color:#f5dfa8;border:1px solid rgba(234,209,168,.30);background:rgba(217,173,95,.11);border-radius:9px;padding:10px 12px;margin:9px 0 0;text-align:center;font-weight:700}
+.copy-feedback.error{color:#ffbcb7;background:rgba(244,96,96,.08);border-color:rgba(255,166,166,.4)}
