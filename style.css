@@ -72,3 +72,43 @@ html{scroll-padding-top:26px}
 }
 /* Prevent horizontal page scrolling while allowing the internal sample carousel. */
 @media(max-width:640px){html,body{max-width:100%;overflow-x:clip}}
+
+
+/* v1.2: Keep the entire three-step guide alongside the draw action. */
+.hero .hero-steps{padding:0 0 17px;margin:0 auto;width:min(100%,640px);text-align:center}
+.hero .hero-steps h2{display:flex;align-items:center;justify-content:center;gap:9px;margin:0 0 12px;font-size:12px;line-height:1.5;letter-spacing:.13em;color:#e7d1ac}
+.hero .hero-steps .step-caption{font-family:ui-sans-serif,system-ui,sans-serif;font-size:9px;letter-spacing:.18em;color:#9994b1}
+.hero .hero-steps .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.hero .hero-steps .steps>div{display:block;text-align:center;min-width:0;min-height:0;padding:11px 8px 12px;border:1px solid rgba(222,191,140,.26);background:linear-gradient(145deg,rgba(41,43,72,.72),rgba(22,29,53,.68));border-radius:12px}
+.hero .hero-steps .step-num{display:block;margin:0 0 3px;font-size:16px;line-height:1.15;color:#ecd08a}
+.hero .hero-steps .steps strong{display:block;font-size:12px;line-height:1.4;font-weight:650;color:#f7eee2}
+.hero .hero-steps .steps p{margin:4px 0 0;font-size:10px;line-height:1.45;color:#b5b1c2}
+@media(max-width:640px){
+  .hero{padding:28px 0 24px}
+  .hero-mark{width:59px;height:59px;margin-bottom:13px}
+  .hero-mark>span:first-child{font-size:36px}
+  .hero-mark::after{inset:-22px}
+  .hero .eyebrow{font-size:9px;margin-bottom:6px}
+  .hero h1{font-size:clamp(31px,8vw,43px);margin-bottom:8px}
+  .hero-sub{font-size:14px;margin-bottom:6px}
+  .hero-desc{font-size:11px;line-height:1.65;margin-bottom:15px}
+  .hero .stats{gap:14px;margin-bottom:18px}
+  .hero .stats b{font-size:17px}
+  .hero .stats span{font-size:10px}
+  .hero .hero-steps{padding-bottom:12px}
+  .hero .hero-steps h2{margin-bottom:7px;font-size:11px}
+  .hero .hero-steps .steps{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+  .hero .hero-steps .steps>div{display:block;grid-template-columns:none;min-height:0;padding:9px 4px}
+  .hero .hero-steps .step-num{display:block;grid-row:auto;margin:0 0 4px;font-size:14px}
+  .hero .hero-steps .steps strong{font-size:11px;line-height:1.35}
+  .hero .hero-steps .steps p{display:none}
+  .hero .draw{min-height:54px;font-size:16px}
+  .hero .micro{margin-top:7px}
+  .hero .preview-jump{margin-top:14px}
+  .hero::after{margin-top:18px}
+}
+@media(max-width:360px){
+  .hero{padding-top:20px}
+  .hero-mark{width:51px;height:51px;margin-bottom:10px}
+  .hero .hero-steps .steps strong{font-size:10px}
+}
