@@ -9,9 +9,8 @@
   <meta property="og:site_name" content="運命の相棒ガチャ">
   <meta property="og:title" content="運命の相棒ガチャ — Identity Fantasy Gacha">
   <meta property="og:description" content="15系統・300種類から運命の相棒を召喚。写真をサイトに渡さず、ChatGPTで自分だけのファンタジーを。">
-  <meta property="og:url" content="https://okuyama5279-ai.github.io/identity-fantasy-gacha/">
-  <meta property="og:image" content="https://okuyama5279-ai.github.io/identity-fantasy-gacha/assets/ogp.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- Brand URL is undecided; set absolute og:url and og:image after Cloudflare Pages activation. -->
+  <meta name="twitter:card" content="summary">
   <meta name="color-scheme" content="dark">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
@@ -21,6 +20,17 @@
 </head>
 <body>
   <div class="page-aurora" aria-hidden="true"></div>
+
+  <aside class="side-gallery side-gallery-left" aria-hidden="true">
+    <figure class="side-gallery-card side-tilt-left"><img src="./assets/examples/example-05-owl.webp" alt="" loading="lazy" decoding="async"></figure>
+    <figure class="side-gallery-card side-tilt-right"><img src="./assets/examples/example-02-jellyfish.webp" alt="" loading="lazy" decoding="async"></figure>
+  </aside>
+
+  <aside class="side-gallery side-gallery-right" aria-hidden="true">
+    <figure class="side-gallery-card side-tilt-left"><img src="./assets/examples/example-01-crystal-serpent.webp" alt="" loading="lazy" decoding="async"></figure>
+    <figure class="side-gallery-card side-tilt-right"><img src="./assets/examples/example-03-anomalocaris.webp" alt="" loading="lazy" decoding="async"></figure>
+  </aside>
+
   <div class="shell">
     <header class="masthead">
       <a href="./" class="brand" aria-label="運命の相棒ガチャ トップ">
@@ -48,6 +58,44 @@
           <span aria-hidden="true">✦</span> ガチャを回す <span aria-hidden="true">✦</span>
         </button>
         <p class="micro">無料 · ログイン不要 · 写真アップロード不要</p>
+        <a class="preview-jump" href="#sample-title" aria-label="生成サンプルカードを見る">
+          <span class="preview-stacks" aria-hidden="true">
+            <img src="./assets/examples/example-05-owl.webp" alt="" decoding="async" width="42" height="56">
+            <img src="./assets/examples/example-04-crustacean.webp" alt="" decoding="async" width="42" height="56">
+            <img src="./assets/examples/example-02-jellyfish.webp" alt="" decoding="async" width="42" height="56">
+          </span>
+          <span>どんなカードになる？ <b>生成例を見る ↓</b></span>
+        </a>
+      </section>
+
+      <section class="sample-showcase" aria-labelledby="sample-title">
+        <div class="sample-showcase-head">
+          <p class="eyebrow">PREVIEW GALLERY</p>
+          <h2 id="sample-title">こんなカードが出ます</h2>
+          <p class="sample-copy">完成イメージの一例です。顔写真・抽選結果・レアリティによって、相棒も衣装も世界観も大きく変化します。</p>
+        </div>
+        <div class="sample-grid">
+          <figure class="sample-card sample-card-feature">
+            <img src="./assets/examples/example-01-crystal-serpent.webp" alt="サンプルカード例：幻想的な白い相棒に寄り添うファンタジー作品" loading="lazy" decoding="async">
+            <figcaption><span class="sample-kicker">SAMPLE 01</span><strong>幻想獣と寄り添う神秘系</strong><p>やわらかな光ときらめきが主役の、伝承ファンタジー風イメージ。</p></figcaption>
+          </figure>
+          <figure class="sample-card">
+            <img src="./assets/examples/example-02-jellyfish.webp" alt="サンプルカード例：クラゲの相棒と海底神殿を歩くファンタジー作品" loading="lazy" decoding="async">
+            <figcaption><span class="sample-kicker">SAMPLE 02</span><strong>海中に浮かぶ透明感ファンタジー</strong><p>水棲相棒なら、透け感のある衣装や深海世界になることも。</p></figcaption>
+          </figure>
+          <figure class="sample-card">
+            <img src="./assets/examples/example-03-anomalocaris.webp" alt="サンプルカード例：古代生物の相棒と岩場に立つファンタジー作品" loading="lazy" decoding="async">
+            <figcaption><span class="sample-kicker">SAMPLE 03</span><strong>古代生物と共闘する冒険系</strong><p>大きな相棒と荒々しい舞台で、英雄的な一枚になる場合もあります。</p></figcaption>
+          </figure>
+          <figure class="sample-card">
+            <img src="./assets/examples/example-04-crustacean.webp" alt="サンプルカード例：甲殻類の相棒を背にした鮮やかなファンタジー作品" loading="lazy" decoding="async">
+            <figcaption><span class="sample-kicker">SAMPLE 04</span><strong>鮮烈カラーのバトルアーマー系</strong><p>相棒の特徴が衣装や装甲に映り込み、戦闘的なビジュアルになることも。</p></figcaption>
+          </figure>
+          <figure class="sample-card">
+            <img src="./assets/examples/example-05-owl.webp" alt="サンプルカード例：知的な鳥の相棒と書物を持つファンタジー作品" loading="lazy" decoding="async">
+            <figcaption><span class="sample-kicker">SAMPLE 05</span><strong>知性と魔導書のエレガント系</strong><p>鳥類や幻獣では、知的で気品ある魔法世界の表現も狙えます。</p></figcaption>
+          </figure>
+        </div>
       </section>
 
       <section class="intro" id="intro" aria-label="あそびかた">

@@ -15,3 +15,60 @@
 .prompt-panel .primary.is-copied{background:linear-gradient(135deg,#f7eacb,#f0cd88);border-color:#ffe7a9}
 .copy-feedback{font-size:12px;color:#f5dfa8;border:1px solid rgba(234,209,168,.30);background:rgba(217,173,95,.11);border-radius:9px;padding:10px 12px;margin:9px 0 0;text-align:center;font-weight:700}
 .copy-feedback.error{color:#ffbcb7;background:rgba(244,96,96,.08);border-color:rgba(255,166,166,.4)}
+
+
+.side-gallery{display:none}@media(min-width:1280px){.side-gallery{display:grid;position:fixed;top:96px;bottom:32px;width:min(18vw,250px);gap:18px;align-content:start;pointer-events:none;z-index:0;opacity:.92}.side-gallery-left{left:max(18px,calc((100vw - 1320px)/2))}.side-gallery-right{right:max(18px,calc((100vw - 1320px)/2))}.side-gallery-card{margin:0;position:relative;overflow:hidden;border-radius:24px;border:1px solid rgba(227,210,170,.18);background:rgba(22,29,49,.62);box-shadow:0 24px 60px rgba(0,0,0,.26)}.side-gallery-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,16,32,.04),rgba(12,16,32,.34))}.side-gallery-card img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;filter:saturate(1.02)}.side-tilt-left{transform:rotate(-5deg)}.side-tilt-right{transform:rotate(5deg)}}
+
+.sample-showcase{padding:0 0 64px}.sample-showcase-head{text-align:center;max-width:720px;margin:0 auto 28px}.sample-showcase-head h2{font-family:Georgia,"Yu Mincho","Hiragino Mincho ProN",serif;font-size:clamp(28px,5vw,40px);font-weight:500;letter-spacing:.06em;margin-bottom:12px}.sample-copy{font-size:13px;color:var(--muted);line-height:1.95;margin:0 auto}.sample-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.sample-card{margin:0;overflow:hidden;border-radius:18px;border:1px solid rgba(232,205,149,.16);background:rgba(18,25,45,.74);box-shadow:0 20px 56px rgba(1,4,12,.22)}.sample-card img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;background:#11192d}.sample-card figcaption{padding:15px 15px 16px}.sample-card strong{display:block;font-size:15px;line-height:1.5;margin:6px 0 7px;color:#f4ead9}.sample-card p{font-size:11px;color:var(--muted);line-height:1.8;margin:0}.sample-kicker{display:inline-flex;align-items:center;gap:8px;color:#e3c38b;font-size:10px;letter-spacing:.18em}.sample-kicker::before{content:"✦";font-size:11px}.sample-card-feature{grid-column:span 2;display:grid;grid-template-columns:minmax(0,1.07fr) minmax(0,.93fr);align-items:stretch}.sample-card-feature img{height:100%}.sample-card-feature figcaption{display:flex;flex-direction:column;justify-content:center;padding:24px 22px}.sample-card-feature strong{font-size:20px}.sample-card-feature p{font-size:12px}
+
+@media(max-width:860px){.sample-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sample-card-feature{grid-column:1/-1}}
+@media(max-width:640px){.sample-showcase{padding:0 0 48px}.sample-showcase-head{margin-bottom:20px}.sample-showcase-head h2{font-size:30px}.sample-copy{font-size:12px}.sample-grid{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(240px,82vw);overflow-x:auto;overscroll-behavior-x:contain;padding-bottom:8px;scroll-snap-type:x proximity}.sample-card,.sample-card-feature{grid-column:auto;display:block;scroll-snap-align:start}.sample-card-feature figcaption{padding:15px 15px 16px}.sample-card-feature strong{font-size:15px}.sample-card-feature p{font-size:11px}}
+
+
+/* --- v1.1 exhibition layout: rich landing without affecting draw engine --- */
+html{scroll-padding-top:26px}
+.hero{isolation:isolate;border-bottom:1px solid rgba(229,189,114,.11)}
+.hero::before{content:"";position:absolute;inset:4px -70px -36px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse 50% 48% at 50% 36%,rgba(137,108,198,.19),transparent 75%),radial-gradient(ellipse 33% 29% at 50% 60%,rgba(222,162,102,.10),transparent 75%)}
+.hero::after{content:"✧      ·      ✦      ·      ✧";display:block;pointer-events:none;font-size:13px;color:#d6b5758f;letter-spacing:16px;line-height:1;margin:28px auto -18px}
+.hero-mark{box-shadow:0 0 36px rgba(222,181,109,.14),0 0 86px rgba(159,111,191,.19),inset 0 0 28px rgba(244,219,168,.09)}
+.hero-mark::after{content:"";position:absolute;inset:-34px;border-radius:50%;pointer-events:none;background:conic-gradient(from 25deg,transparent 0 24%,rgba(240,208,150,.3) 25%,transparent 26% 49%,rgba(240,208,150,.22) 50%,transparent 51% 74%,rgba(240,208,150,.2) 75%,transparent 76%);-webkit-mask:radial-gradient(circle,transparent 62%,#000 64%,#000 65%,transparent 67%);mask:radial-gradient(circle,transparent 62%,#000 64%,#000 65%,transparent 67%)}
+.hero .eyebrow{text-shadow:0 0 20px rgba(246,196,105,.17)}
+.hero h1{text-shadow:0 8px 28px rgba(0,0,0,.38)}
+.preview-jump{display:flex;align-items:center;justify-content:center;gap:13px;width:fit-content;max-width:100%;margin:25px auto 0;padding:10px 20px;border-radius:48px;border:1px solid rgba(221,192,141,.25);background:linear-gradient(135deg,rgba(33,41,71,.83),rgba(27,26,48,.72));text-decoration:none;box-shadow:0 14px 30px rgba(3,6,17,.24);transition:border-color .18s,transform .18s,background .18s}
+.preview-jump:hover{border-color:rgba(250,220,153,.68);background:rgba(51,52,85,.94);transform:translateY(-2px)}
+.preview-jump:focus-visible{outline:2px solid #ddc484}
+.preview-jump>span:last-child{text-align:left;color:#d5cad7;font-size:11px;line-height:1.5}
+.preview-jump b{display:block;color:#f3d194;font-size:12px;letter-spacing:.04em}
+.preview-stacks{display:flex;align-items:center;isolation:isolate;padding:2px 10px 2px 0}
+.preview-stacks img{width:38px;height:49px;object-fit:cover;border-radius:6px;border:1px solid #e7c78e8c;box-shadow:0 5px 12px #0009;margin-right:-12px}
+.preview-stacks img:nth-child(1){transform:rotate(-10deg);z-index:1}
+.preview-stacks img:nth-child(2){transform:translateY(-3px) rotate(4deg);z-index:2}
+.preview-stacks img:nth-child(3){transform:rotate(11deg);z-index:3}
+.sample-showcase{padding-top:62px;scroll-margin-top:24px}
+.sample-showcase-head h2{background:linear-gradient(115deg,#fff7e4,#f1cf95 55%,#eddad1);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sample-showcase-head::after{content:"";display:block;width:110px;height:1px;background:linear-gradient(90deg,transparent,#e4c18a,transparent);margin:22px auto 0}
+.sample-card{position:relative;transition:transform .2s,border-color .2s,box-shadow .2s}
+@media(hover:hover){.sample-card:hover{transform:translateY(-5px);border-color:rgba(236,199,136,.55);box-shadow:0 26px 60px rgba(3,4,19,.44)}}
+.sample-card img{transition:filter .2s}
+.intro{padding-top:38px;padding-bottom:53px}
+@media(min-width:1280px){
+  .side-gallery{top:109px;bottom:auto;width:clamp(148px,calc((100vw - 890px)/2 - 45px),218px);height:auto;max-height:calc(100vh - 130px);gap:15px;align-content:center;overflow:visible}
+  .side-gallery-left{left:clamp(18px,2.2vw,50px)}
+  .side-gallery-right{right:clamp(18px,2.2vw,50px)}
+  .side-gallery-card{aspect-ratio:3/3.75}
+  .side-gallery-card img{width:100%;height:100%;aspect-ratio:auto;object-fit:cover}
+  .side-gallery-card:before{content:"SAMPLE ART";position:absolute;left:12px;top:12px;z-index:2;font-size:9px;letter-spacing:.2em;color:white;text-shadow:0 2px 9px #000}
+  .shell{position:relative;z-index:1}
+}
+@media(max-height:750px) and (min-width:1280px){.side-gallery{top:90px;gap:11px}.side-gallery-card{aspect-ratio:3/2.8}}
+@media(max-width:640px){.hero::before{inset:0 -20px -30px}.hero::after{letter-spacing:9px}.preview-jump{margin-top:19px;padding:8px 15px}.sample-showcase{padding-top:43px}.sample-showcase-head{margin-bottom:25px}.intro{padding-top:25px}.sample-grid{scrollbar-width:thin;scrollbar-color:#8c75b0 #1a203c}}
+@media(prefers-reduced-motion:reduce){.preview-jump,.sample-card,.sample-card img{transition:none!important}}
+
+/* Keep the mobile carousel self-contained; avoid extra page width or tall grid tracks. */
+@media(max-width:640px){
+  .sample-grid{display:flex;grid-template-columns:none;grid-auto-flow:initial;grid-auto-columns:auto;gap:12px;max-width:100%;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory}
+  .sample-card,.sample-card-feature{display:block;flex:0 0 min(78vw,295px);height:auto;grid-column:auto;min-width:0;scroll-snap-align:start}
+  .sample-card-feature img{height:auto;aspect-ratio:3/4}
+}
+/* Prevent horizontal page scrolling while allowing the internal sample carousel. */
+@media(max-width:640px){html,body{max-width:100%;overflow-x:clip}}
