@@ -33,15 +33,16 @@ node --test tests/engine.test.mjs
 
 大量試行のカテゴリ分布・seed再現・バイアス判定・適合構図・プロンプト整合を検査します。ブラウザ統合テストは `tests/browser_smoke.py` を参照。
 
-## 公開（GitHub Pages：推奨）
+## 公開（Cloudflare Pages：本番）
 
-1. GitHub リポジトリ `okuyama5279-ai/identity-fantasy-gacha` の `main` ルートに配置済み。
-2. GitHub の **Settings → Pages → Build and deployment → Deploy from a branch → main / (root)** を選択。
-3. 公開URL `https://okuyama5279-ai.github.io/identity-fantasy-gacha/` で動作を確認。
-4. `index.html` の OGP絶対HTTPS URL設定済み。Xのクローラーでカードが表示されるかは公開後に確認。
-5. Xアプリ内ブラウザ、Safariで「抽選 → コピー → ChatGPT移動 → URL復元」を実機確認。
+- **本番公開URL：** https://identity-fantasy-gacha.pages.dev/
+- Cloudflare Pages Git連携：`main` / Framework preset `None` / Build command 空欄 / Output directory `.`
+- `main` へcommitするとCloudflare Pagesが自動再デプロイする。
+- GitHub Pages は旧配信先のため停止予定。本番用URLとして案内しない。
+- OGPとcanonicalはCloudflare PagesのURLを使用する。Xクローラーのカード確認は別途実施。
+- iPhone Safariで抽選・コピー・アプリ優先起動は実機確認済み。Cloudflare側への移行後は再確認する。
 
-GitHub PagesはHTTPSを提供します。Xへの投稿は投稿画面を開くまでで、自動投稿はしません。ChatGPTの画像生成もユーザーの手動操作です。
+Xへの投稿は投稿画面を開くまでで自動投稿はしません。ChatGPTへの画像送信も利用者の手動操作です。
 
 ## 長期再現の重要な制約
 
@@ -72,10 +73,6 @@ GitHub PagesはHTTPSを提供します。Xへの投稿は投稿画面を開く�
 - トップの紋章・光・生成イメージへ移動する導線を強化。
 - 抽選データ/抽選エンジン・seed URLの仕様は変更しない。
 
-## 公開URLのブランド化（保留中）
+## 公開URLのブランド化（2026-10-19）
 
-一般公開用には個人ユーザー名が含まれない Cloudflare Pages `*.pages.dev` を推奨。現在のGitHubリポジトリは編集元として維持し、Cloudflare Pages 側でGit連携する。**Cloudflareへの新サイト作成は未実施。**
-
-ブランドURLが確定したら `index.html` に絶対URLの `og:url` / `og:image` を設定し、`twitter:card` を `summary_large_image` に戻す。移行までこれらを一時的に省略しており、Xでの大きな画像プレビューは保証されない。
-
-移行後は旧GitHub Pages公開を停止する。URLから個人名を外しても、公開GitHubリポジトリやGit履歴を参照すればアカウント名が分かる可能性が残る。GitHubを匿名化する場合は別途オーナー移転や公開範囲の検討が必要。
+Cloudflare Pagesへの初回デプロイに成功。正式な公開URLは https://identity-fantasy-gacha.pages.dev/。GitHubリポジトリはソース管理専用として維持する。GitHub Pagesの旧配信は停止予定。公開GitHubリポジトリに個人ユーザー名が残る点に注意する。
