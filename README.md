@@ -84,3 +84,7 @@ Cloudflare Pagesへの初回デプロイに成功。正式な公開URLは https:
 - `index.html` のCSPでは `script-src` に `https://static.cloudflareinsights.com` を、`connect-src` に `https://cloudflareinsights.com` を追加している。自動注入の場合の同一オリジンのBeacon送信も `'self'` により許可される。
 - 解析サービスの有効化と計測値の表示確認はCloudflare管理画面が正本。閲覧数が表示されるまで若干の遅延があり、リアルタイム接続人数を示すものではない。
 - ガチャ操作回数やクリップボード内容は独自のイベント収集を行わない。
+
+### 再デプロイ記録
+
+- 2026-10-19：Cloudflareダッシュボード側でWeb Analyticsの「Enable」を押したことをユーザーが確認。GitHubのこのcommitでCloudflare Pagesの再デプロイを起動する。計測の有効化とデータ受信はCloudflare側で別途確認する。
