@@ -12,7 +12,7 @@
 - 128bit CSPRNG seed / SHA-256 domain-separated deterministic draws / rejection sampling
 - `?v=1&s=<128bit hex>` で再現（ページを再読込しても同結果）
 - iPhone対応ページ、プロンプトコピー、ChatGPTへの導線、Xシェア、再現URLコピー
-- 写真のアップロードなし、バックエンドなし、外部JS・追跡なし
+- 写真のアップロード・独自バックエンドなし。Cloudflare Web Analyticsのみ閲覧状況・表示性能の集計に利用（ダッシュボード側で有効化後）
 
 ## ローカル実行
 
@@ -64,7 +64,7 @@ Xへの投稿は投稿画面を開くまでで自動投稿はしません。Chat
 
 ## プライバシー・外部リンク
 
-サイトは顔写真・ユーザーアカウント・トークンを要求しません。`fetch` は同一オリジンのローカルJSONとテキストのみ。サイト管理者のアクセスログ、GitHub Pagesのインフラ処理、外部サービスへ移動した後の取扱いは別です。X/ChatGPTを開いた後は各サービスの利用規約とプライバシーポリシーが適用されます。
+サイトは顔写真・ユーザーアカウント・トークンを要求しません。抽選結果とプロンプト生成はブラウザ内で完結し、写真・プロンプト・seedを独自サーバーへ送信しません。閲覧状況と表示性能の把握には、Cloudflare Web AnalyticsのBeaconを利用します（Cloudflareダッシュボードで有効化された場合）。Cloudflare Web AnalyticsはCookieを使用しないプライバシー重視の集計サービスであり、URLのクエリ文字列は集計しません。配信インフラのログ、外部サービスへ移動した後の取扱いは別です。X/ChatGPTを開いた後は各サービスの利用規約とプライバシーポリシーが適用されます。
 
 ## UI展示版（2026-10-19）
 
@@ -76,3 +76,11 @@ Xへの投稿は投稿画面を開くまでで自動投稿はしません。Chat
 ## 公開URLのブランド化（2026-10-19）
 
 Cloudflare Pagesへの初回デプロイに成功。正式な公開URLは https://identity-fantasy-gacha.pages.dev/。GitHubリポジトリはソース管理専用として維持する。GitHub Pagesの旧配信は停止予定。公開GitHubリポジトリに個人ユーザー名が残る点に注意する。
+
+## Cloudflare Web Analytics 導入手順（2026-10-19）
+
+- [Cloudflare Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages) → `identity-fantasy-gacha` → `Metrics` → `Web Analytics` → `Enable` をアカウント所有者が操作する。
+- **Enable後の次回デプロイ時**にCloudflareがBeaconをHTMLへ自動挿入する。手動スニペットを二重挿入しない。
+- `index.html` のCSPでは `script-src` に `https://static.cloudflareinsights.com` を、`connect-src` に `https://cloudflareinsights.com` を追加している。自動注入の場合の同一オリジンのBeacon送信も `'self'` により許可される。
+- 解析サービスの有効化と計測値の表示確認はCloudflare管理画面が正本。閲覧数が表示されるまで若干の遅延があり、リアルタイム接続人数を示すものではない。
+- ガチャ操作回数やクリップボード内容は独自のイベント収集を行わない。
